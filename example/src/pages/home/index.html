@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <%- include ../../mods/header.html -%>
+        <title></title>
+        <% if (htmlWebpackPlugin.options.data.build) { %>
+            <link rel="stylesheet" href="./main.css">
+        <% } %>
+    </head>
+    <body>
+        <div id="app">
+            <app></app>
+        </div>
+        <%- include ../../mods/vendor-scripts.html -%>
+        <script defer src="./main.js"></script>
+    </body>
+</html>

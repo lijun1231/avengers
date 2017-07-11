@@ -1,0 +1,16 @@
+{
+    "name": "example",
+    "desc": "example",
+    "type": "hfe-generator",
+    "group": "hfe",
+    "version": "0.1.0",
+    "author": {
+        "name": "lijun28",
+        "email": "lijun28@meituan.com"
+    },
+    "publishType":"h5",
+    "root": "./src",
+    "port": "8080",
+    "timestamp": 1469082622865,
+    "useCombo": false
+}
